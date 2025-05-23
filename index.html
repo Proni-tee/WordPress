@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="box">
+    <header>
+        <h1 id="title">How to Use WordPress</h1>
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider"></span>
+                </label>
+                <select id="language-switcher">
+                    <option value="en">English</option>
+                    <option value="ru">Русский</option>
+                    <option value="uk">Українська</option>
+                    <option value="fr">Français</option>
+                </select>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="sozd">
+            <div class="text_sozd">
+                <h1 class="h1_sozd" data-en="Download and Install XAMPP" data-ru="Скачивание и установка XAMPP" data-uk="Завантаження та встановлення XAMPP" data-fr="Télécharger et installer XAMPP">Download and Install XAMPP</h1>
+                <ul>
+                    <li class="li_sozd"><a data-en="Download XAMPP"
+                         data-ru="Скачать XAMPP"
+                          data-uk="Завантажте XAMPP" 
+                          data-fr="Téléchargez XAMPP" href="https://www.apachefriends.org/ru/download.html">
+                        Download XAMPP
+                    </a></li>
+                    <li class="li_sozd" data-en="During installation, select Apache, MySQL, PHP, and phpMyAdmin."
+                        data-ru="Во время установки выберите компоненты: Apache, MySQL, PHP и phpMyAdmin."
+                        data-uk="Під час встановлення виберіть Apache, MySQL, PHP та phpMyAdmin."
+                        data-fr="Sélectionnez Apache, MySQL, PHP et phpMyAdmin pendant l’installation.">During installation, select Apache, MySQL, PHP, and phpMyAdmin.</li>
+                    <li class="li_sozd Li_whith_imgs">
+                        <ul class="ul_sozd">
+                            <li class="Li" 
+                        data-en="Launch XAMPP and start Apache and MySQL modules"
+                        data-ru="Запустить XAMPP Control Panel и включите модули Apache и MySQL"
+                        data-uk="Запустіть XAMPP Control Panel та увімкніть модулі Apache та MySQL"
+                        data-fr="Lancez XAMPP Control Panel et activez les modules Apache et MySQL" 
+                       >Launch XAMPP and start Apache and MySQL modules.</li>
+                       <img src="XAMPP_control_panel.jpg" alt="">
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="razdelenue"></div>
+            <div class="word_dow">
+                <h1 class="h1_word_dow" data-en="Download WordPress" data-ru="Скачать WordPress" data-uk="Завантажте WordPress" data-fr="Télécharger WordPress">Download WordPress</h1>
+                <li class="li_word"><a data-en="Download WordPress"
+                    data-ru="Скачать WordPress"
+                     data-uk="Завантажте WordPress" 
+                     data-fr="Téléchargez WordPress" href="https://wordpress.org/download/releases/6-6/">
+                   Download WordPress
+               </a></li>
+                <li class="li_word" 
+                data-en="Unzip the WordPress files into the C:\xampp\htdocs\."
+                data-ru="Распакуйте WordPress в папку C:\xampp\htdocs\."
+                data-uk="Розархівуйте файли в папку C:\xampp\htdocs\"
+                data-fr="Placez-les dans le dossier C:\xampp\htdocs\">
+                    Unzip the WordPress files into the <span>C:\xampp\htdocs\</span>.
+                </li>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="baz_dan">
+                <h1 class="h1_baz_dan" data-en="Create a WordPress Database" data-ru="Создать базу данных WordPress" data-uk="Створіть базу даних WordPress" data-fr="Créez une base de données WordPress">Create a WordPress Database</h1>
+                <li class="li_baz_dan" 
+                data-en="Open your browser and go to http://localhost/phpmyadmin"
+                data-ru="Откройте браузер и перейдите на: http://localhost/phpmyadmin"
+                data-uk="У браузері відкрийте: http://localhost/phpmyadmin."
+                data-fr="Accédez à http://localhost/phpmyadmin dans votre navigateur." >Open your browser and go to http://localhost/phpmyadmin</li>
+                <li class="li_baz_dan"
+                data-en="Click `New` on the left sidebar."
+                data-ru="Нажмите `New` (Создать) в левой панели."
+                data-uk="Натисніть `New` (Створити) у лівому меню."
+                data-fr="Cliquez sur `New` dans le menu de gauche.">Click "New" on the left sidebar.</li>
+                <li class="li_baz_dan"
+                data-en="Enter a database name (e.g., wordpress_db) and select utf8_general_ci. Click Create."
+                data-ru="Введите имя базы данных (например, wordpress_db) и выберите utf8_general_ci. Нажмите Create."
+                data-uk="Введіть ім'я бази даних (наприклад, wordpress_db) та виберіть utf8_general_ci. Натисніть Create."
+                data-fr="Donnez un nom à votre base de données (par exemple, wordpress_db) et choisissez utf8_general_ci. Cliquez sur Create.">Enter a database name (e.g., wordpress_db) and select utf8_general_ci. Click Create..</li>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word" data-en="Configure WordPress" data-ru="Настроить WordPress" data-uk="Налаштувати WordPress" data-fr="Configurer WordPress">Configure WordPress</h1>
+                <li class="li_config_word"
+                data-en="Open your browser and go to http://localhost/wordpress"
+                data-ru="Откройте браузер и перейдите на: http://localhost/wordpress"
+                data-uk="У браузері відкрийте: http://localhost/wordpress."
+                data-fr="Accédez à http://localhost/wordpress dans votre."> Open your browser and go to http://localhost/wordpress </li>
+                <div class="li_config_word li_configg_word" id="bth_li">
+                    <p class="p_class">Fill in the database details</p>
+                </div>
+                <div class="agent">
+                    <ul>
+                        <li
+                        data-en="Database Name: wordpress_db."
+                        data-ru="Имя базы данных: wordpress_db"
+                        data-uk="Назва бази даних: wordpress_db"
+                        data-fr="Nom de la base de données : wordpress_db.">Database Name: wordpress_db.</li>
+                        <li
+                        data-en="Username: root."
+                        data-ru="Имя пользователя: root"
+                        data-uk="Ім'я користувача: root"
+                        data-fr="Nom d’utilisateur : root.">Username: root.</li>
+                        <li
+                        data-en="Password: Leave blank"
+                        data-ru="Пароль: оставьте пустым"
+                        data-uk="Пароль: залиште порожнім"
+                        data-fr="Mot de passe : laissez vide.">Password: Leave blank</li>
+                        <li
+                        data-en="Database Host: localhost"
+                        data-ru="Сервер базы данных: localhost"
+                        data-uk="Сервер бази: localhost"
+                        data-fr="Hôte de base de données : localhost.">Database Host: localhost</li>
+                    </ul>
+                </div>
+                <li class="li_config_word"
+                data-en="Click Submit and follow the setup process to create an admin account"
+                data-ru="Создайте учетную запись администратора WordPress (логин/пароль)."
+                data-uk="Натисніть `Submit` і дотримуйтесь інструкцій, щоб створити обліковий запис адміністратора."
+                data-fr="Cliquez sur `Envoyer` et suivez les étapes pour créer un compte administrateur.">Click Submit and follow the setup process to create an admin account</li>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="peroxod">
+                <h1 class="h1_config_word" data-en="What do you want to learn next?" data-ru="Что хотите изучать дальше?" data-uk="Що хочете вивчати далі?" data-fr="Que voulez-vous apprendre ensuite ?">What do you want to learn next?</h1>
+                <li class="li_word li_per"><a id="word_Ed" data-en="WordPress Editor"
+                    data-ru="Редактор WordPress"
+                     data-uk="Редактор WordPress" 
+                     data-fr="Éditeur WordPress" href="">
+                     WordPress Editor
+               </a></li>
+            </div>
+    </main>
+    <main class="main_wordEditor">
+        <div class="config_word">
+            <h1 class="h1_config_word" data-en="Console" data-ru="Консоль" data-uk="Консоль" data-fr="Console">Console</h1>
+            <div class="li_config_word li_configg_word" id="bth_li2">
+                <p class="p_class" 
+                data-en="Displays an overview of the website's current state"
+                data-ru="Предоставляет обзор текущего состояния сайта."
+                data-uk="Показує огляд поточного стану сайту."
+                data-fr="Affiche un aperçu de l'état actuel du site."
+                >Displays an overview of the website's current state</p>
+            </div>
+            <div class="agent agent2">
+                <ul>
+                    <li
+                    data-en="Shows brief statistics (number of posts, pages, comments)."
+                    data-ru="Показывает краткую статистику (количество записей, страниц, комментариев)."
+                    data-uk="Показує коротку статистику (кількість записів, сторінок, коментарів)."
+                    data-fr="Montre des statistiques rapides (nombre d'articles, pages, commentaires).">Shows brief statistics (number of posts, pages, comments).</li>
+                    <li
+                    data-en="Displays update notifications."
+                    data-ru="Отображает уведомления о обновлениях."
+                    data-uk="Відображає повідомлення про оновлення."
+                    data-fr="Affiche les notifications de mise à jour.">Displays update notifications.</li>
+                    <li
+                    data-en="Provides quick actions (e.g., creating a draft)."
+                    data-ru="Предлагает быстрые действия (например, создание черновика)."
+                    data-uk="Пропонує швидкі дії (наприклад, створення чернетки)."
+                    data-fr="Propose des actions rapides (par ex., créer un brouillon).">Provides quick actions (e.g., creating a draft).</li>
+                </ul>
+            </div>
+        </div>
+        <div class="razdelenue"></div>
+        <div class="config_word">
+            <h1 class="h1_config_word" data-en="Posts" data-ru="Записи" data-uk="Записи" data-fr="Articles">Posts</h1>
+            <div class="li_config_word li_configg_word" id="bth_li1">
+                <p class="p_class" 
+                data-en="Manage blog posts"
+                data-ru="Управление публикациями блога."
+                data-uk="Управління публікаціями блогу."
+                data-fr="Gérer les publications du blog."
+                >Manage blog posts</p>
+            </div>
+            <div class="agent agent1">
+                <ul>
+                    <li
+                    data-en="Create new posts."
+                    data-ru="Создание новых записей."
+                    data-uk="Створення нових записів."
+                    data-fr="Créer de nouveaux articles.">Create new posts.</li>
+                    <li
+                    data-en="Manage categories."
+                    data-ru="Управление категориями."
+                    data-uk="Управління категоріями."
+                    data-fr="Gérer les catégories.
+                    ">Manage categories..</li>
+                    <li
+                    data-en="Add and edit tags."
+                    data-ru="Добавление и редактирование меток."
+                    data-uk="Додавання і редагування міток."
+                    data-fr="Ajouter et modifier des étiquettes.">Add and edit tags.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="razdelenue"></div>
+        <!-- <div class="config_word">
+            <h1 class="h1_config_word"
+            data-en="" 
+            data-ru=""
+            data-uk="" 
+            data-fr=""></h1>
+            <div class="li_config_word li_configg_word" id="bth_li3">
+                <p class="p_class" 
+                data-en=""
+                data-ru=""
+                data-uk=""
+                data-fr=""
+                ></p>
+            </div>
+            <div class="agent agent3">
+                <ul>
+                    <li
+                    data-en=""
+                    data-ru=""
+                    data-uk=""
+                    data-fr=""
+                    ></li>
+                    <li
+                    data-en=""
+                    data-ru=""
+                    data-uk=""
+                    data-fr=""
+                    ></li>
+                    <li
+                    data-en=""
+                    data-ru=""
+                    data-uk=""
+                    data-fr=""
+                    ></li>
+                </ul>
+            </div> -->
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Media"
+                    data-ru="Медиафайлы"
+                    data-uk="Медіафайли"
+                    data-fr="Médias">
+                    Media
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li3">
+                    <p class="p_class" 
+                       data-en="Manage uploaded files (images, videos, and documents)."
+                       data-ru="Управление загруженными файлами (изображениями, видео и документами)."
+                       data-uk="Управління завантаженими файлами (зображеннями, відео та документами)."
+                       data-fr="Gérer les fichiers téléchargés (images, vidéos et documents).">
+                       Manage uploaded files (images, videos, and documents).
+                    </p>
+                </div>
+                <div class="agent agent3">
+                    <ul>
+                        <li data-en="View all media files in the library."
+                            data-ru="Просмотр всех файлов в библиотеке."
+                            data-uk="Перегляд усіх файлів у бібліотеці."
+                            data-fr="Voir tous les fichiers dans la bibliothèque.">
+                            View all media files in the library.
+                        </li>
+                        <li data-en="Upload new files."
+                            data-ru="Загрузка новых файлов."
+                            data-uk="Завантаження нових файлів."
+                            data-fr="Télécharger de nouveaux fichiers.">
+                            Upload new files.
+                        </li>
+                        <li data-en="Delete or edit existing files."
+                            data-ru="Удаление или редактирование существующих файлов."
+                            data-uk="Видалення або редагування існуючих файлів."
+                            data-fr="Supprimer ou modifier des fichiers existants.">
+                            Delete or edit existing files.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Pages"
+                    data-ru="Страницы"
+                    data-uk="Сторінки"
+                    data-fr="Pages">
+                    Pages
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li4">
+                    <p class="p_class" 
+                       data-en="Manage static pages."
+                       data-ru="Управление статическими страницами."
+                       data-uk="Управління статичними сторінками."
+                       data-fr="Gérer les pages statiques.">
+                       Manage static pages.
+                    </p>
+                </div>
+                <div class="agent agent4">
+                    <ul>
+                        <li data-en="Create new pages."
+                            data-ru="Создание новых страниц."
+                            data-uk="Створення нових сторінок."
+                            data-fr="Créer de nouvelles pages.">
+                            Create new pages.
+                        </li>
+                        <li data-en="Edit existing pages."
+                            data-ru="Редактирование существующих страниц."
+                            data-uk="Редагування існуючих сторінок."
+                            data-fr="Modifier les pages existantes.">
+                            Edit existing pages.
+                        </li>
+                        <li data-en="Delete unnecessary pages."
+                            data-ru="Удаление ненужных страниц."
+                            data-uk="Видалення непотрібних сторінок."
+                            data-fr="Supprimer les pages inutiles.">
+                            Delete unnecessary pages.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Comments"
+                    data-ru="Комментарии"
+                    data-uk="Коментарі"
+                    data-fr="Commentaires">
+                    Comments
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li5">
+                    <p class="p_class" 
+                       data-en="Moderate comments on the website."
+                       data-ru="Модерация комментариев на сайте."
+                       data-uk="Модерація коментарів на сайті."
+                       data-fr="Modérer les commentaires sur le site.">
+                       Moderate comments on the website.
+                    </p>
+                </div>
+                <div class="agent agent5">
+                    <ul>
+                        <li data-en="Approve or decline comments."
+                            data-ru="Одобрение или отклонение комментариев."
+                            data-uk="Затвердження чи відхилення коментарів."
+                            data-fr="Approuver ou rejeter les commentaires.">
+                            Approve or decline comments.
+                        </li>
+                        <li data-en="Respond to comments."
+                            data-ru="Ответы на комментарии."
+                            data-uk="Відповіді на коментарі."
+                            data-fr="Répondre aux commentaires.">
+                            Respond to comments.
+                        </li>
+                        <li data-en="Mark as spam or delete."
+                            data-ru="Пометка как спам или удаление."
+                            data-uk="Позначення як спам або видалення."
+                            data-fr="Marquer comme spam ou supprimer.">
+                            Mark as spam or delete.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Appearance"
+                    data-ru="Внешний вид"
+                    data-uk="Зовнішній вигляд"
+                    data-fr="Apparence">
+                    Appearance
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li6">
+                    <p class="p_class" 
+                       data-en="Customize the look and feel of the website."
+                       data-ru="Настройка внешнего вида сайта."
+                       data-uk="Налаштування зовнішнього вигляду сайту."
+                       data-fr="Personnalisez l'apparence du site web.">
+                       Customize the look and feel of the website.
+                    </p>
+                </div>
+                <div class="agent agent6">
+                    <ul>
+                        <li data-en="Change themes."
+                            data-ru="Изменение тем оформления."
+                            data-uk="Зміна тем оформлення."
+                            data-fr="Changer les thèmes.">
+                            Change themes.
+                        </li>
+                        <li data-en="Customize menus and widgets."
+                            data-ru="Настройка меню и виджетов."
+                            data-uk="Налаштування меню та віджетів."
+                            data-fr="Personnaliser les menus et widgets.">
+                            Customize menus and widgets.
+                        </li>
+                        <li data-en="Edit website CSS."
+                            data-ru="Редактирование CSS сайта."
+                            data-uk="Редагування CSS сайту."
+                            data-fr="Modifier le CSS du site.">
+                            Edit website CSS.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Plugins"
+                    data-ru="Плагины"
+                    data-uk="Плагіни"
+                    data-fr="Extensions">
+                    Plugins
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li7">
+                    <p class="p_class" 
+                       data-en="Manage installed plugins and add new ones."
+                       data-ru="Управление установленными плагинами и добавление новых."
+                       data-uk="Управління встановленими плагінами та додавання нових."
+                       data-fr="Gérer les extensions installées et en ajouter de nouvelles.">
+                       Manage installed plugins and add new ones.
+                    </p>
+                </div>
+                <div class="agent agent7">
+                    <ul>
+                        <li data-en="Activate or deactivate plugins."
+                            data-ru="Активация или деактивация плагинов."
+                            data-uk="Активація або деактивація плагінів."
+                            data-fr="Activer ou désactiver les extensions.">
+                            Activate or deactivate plugins.
+                        </li>
+                        <li data-en="Update installed plugins."
+                            data-ru="Обновление установленных плагинов."
+                            data-uk="Оновлення встановлених плагінів."
+                            data-fr="Mettre à jour les extensions installées.">
+                            Update installed plugins.
+                        </li>
+                        <li data-en="Search and install new plugins."
+                            data-ru="Поиск и установка новых плагинов."
+                            data-uk="Пошук і встановлення нових плагінів."
+                            data-fr="Rechercher et installer de nouvelles extensions.">
+                            Search and install new plugins.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Users"
+                    data-ru="Пользователи"
+                    data-uk="Користувачі"
+                    data-fr="Utilisateurs">
+                    Users
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li8">
+                    <p class="p_class" 
+                       data-en="Manage user accounts and roles."
+                       data-ru="Управление учетными записями пользователей и ролями."
+                       data-uk="Управління обліковими записами користувачів та ролями."
+                       data-fr="Gérer les comptes utilisateurs et les rôles.">
+                       Manage user accounts and roles.
+                    </p>
+                </div>
+                <div class="agent agent8">
+                    <ul>
+                        <li data-en="Add or remove users."
+                            data-ru="Добавление или удаление пользователей."
+                            data-uk="Додавання або видалення користувачів."
+                            data-fr="Ajouter ou supprimer des utilisateurs.">
+                            Add or remove users.
+                        </li>
+                        <li data-en="Assign roles (e.g., admin, editor)."
+                            data-ru="Назначение ролей (например, администратор, редактор)."
+                            data-uk="Призначення ролей (наприклад, адміністратор, редактор)."
+                            data-fr="Attribuer des rôles (ex. : admin, éditeur).">
+                            Assign roles (e.g., admin, editor).
+                        </li>
+                        <li data-en="Edit user profiles."
+                            data-ru="Редактирование профилей пользователей."
+                            data-uk="Редагування профілів користувачів."
+                            data-fr="Modifier les profils utilisateurs.">
+                            Edit user profiles.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="razdelenue"></div>
+            <div class="config_word">
+                <h1 class="h1_config_word"
+                    data-en="Settings"
+                    data-ru="Настройки"
+                    data-uk="Налаштування"
+                    data-fr="Réglages">
+                    Settings
+                </h1>
+                <div class="li_config_word li_configg_word" id="bth_li9">
+                    <p class="p_class" 
+                       data-en="Configure basic and advanced options for the website."
+                       data-ru="Настройка базовых и продвинутых параметров сайта."
+                       data-uk="Налаштування базових і розширених параметрів сайту."
+                       data-fr="Configurer les options de base et avancées du site web.">
+                       Configure basic and advanced options for the website.
+                    </p>
+                </div>
+                <div class="agent agent9">
+                    <ul>
+                        <li data-en="Set site title and tagline."
+                            data-ru="Установка заголовка сайта и слогана."
+                            data-uk="Встановлення заголовка сайту та слогану."
+                            data-fr="Définir le titre et le slogan du site.">
+                            Set site title and tagline.
+                        </li>
+                        <li data-en="Adjust timezone and date format."
+                            data-ru="Настройка часового пояса и формата даты."
+                            data-uk="Налаштування часового поясу та формату дати."
+                            data-fr="Ajuster le fuseau horaire et le format de date.">
+                            Adjust timezone and date format.
+                        </li>
+                        <li data-en="Manage site visibility and privacy settings."
+                            data-ru="Управление видимостью сайта и настройками конфиденциальности."
+                            data-uk="Управління видимістю сайту та налаштуваннями конфіденційності."
+                            data-fr="Gérer la visibilité et les paramètres de confidentialité du site.">
+                            Manage site visibility and privacy settings.
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+            <div class="razdelenue"></div>
+            <div class="peroxod">
+                <h1 class="h1_config_word" data-en="What do you want to learn next?" data-ru="Что хотите изучать дальше?" data-uk="Що хочете вивчати далі?" data-fr="Que voulez-vous apprendre ensuite ?">What do you want to learn next?</h1>
+                <li class="li_word li_per"><a id="word_inst"
+                    data-en="WordPress Installation"
+                    data-ru="Установка WordPress"
+                     data-uk="Встановлення WordPress" 
+                     data-fr="Installation de WordPress" href="">
+                     WordPress Installation
+               </a></li>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-en="© 2024 Learn WordPress" data-ru="© 2024 Учим WordPress" data-uk="© 2024 Вчимо WordPress" data-fr="© 2024 étudier WordPress">© 2024 Learn WordPress</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
